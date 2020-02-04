@@ -57,4 +57,8 @@ $response = $kernel->handle(
 
 $response->send();
 
+<<<<<<< HEAD
 $kernel->terminate($request, $response);
+=======
+$kernel->terminate($request, $response);
+>>>>>>> c316a81e84c0cc3f96801532865a1816571ee9c3
